@@ -1,5 +1,7 @@
 # Mailbox intergration service
 
+![image](https://user-images.githubusercontent.com/55990554/125464904-34781eb8-393a-4ea3-9dde-9f268187e26c.png)
+
 Send emails from mailbox to **Telegram Bot**, **Bitrix24** and **SMS** messaging service using API.
 Exsist three entry point: 
 - **bot.php**
