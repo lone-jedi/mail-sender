@@ -1,4 +1,4 @@
-#Mailbox intergration service
+# Mailbox intergration service
 
 Send emails from mailbox to **Telegram Bot**, **Bitrix24** and **SMS** messaging service using API.
 Exsist three entry point: 
