@@ -61,7 +61,7 @@ if(!empty($mails)) {
         date_default_timezone_set('Europe/Kiev');
         // Get int from 24 format hour
         $hour = intval(date('G'));
-        if($hour > 9 && $hour < 21) {
+        if($hour >= 9 && $hour < 21) {
         	// Send to SMS service
             $resp = Sms::send('YOUR SMS TEXT', [ $mail['user_phone'] ]);
         } else {

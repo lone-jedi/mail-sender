@@ -1,5 +1,6 @@
 <?php
-require_once 'init.php';
+require_once 'config.php';
+require_once 'models/Sms.php';
 
 // Get phones array from phones file 
 $phones = explode(' ', file_get_contents(__DIR__ . '/tmp_phones.txt'));
