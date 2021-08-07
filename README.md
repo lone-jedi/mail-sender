@@ -13,7 +13,7 @@ Executed from cron, runs everyday at 9 am and send sms to phone numbers, which s
 
 To install project on your local machine or server use Composer:
 ```bash
-composer install
+composer update
 ```
 
 Telegram-SDK Documentation https://github.com/irazasyed/telegram-bot-sdk
